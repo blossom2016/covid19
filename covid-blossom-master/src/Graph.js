@@ -57,7 +57,7 @@ const Graph = ({ data }) => {
     <Box minW="80vw" px={2}>
       <Plot
         data={transformDataToPlot(data)}
-        layout={{ width: 320, height: 240, title: 'A Fancy Plot' }}
+        layout={{ width: 720, height: 720, title: 'A Fancy Plot' }}
       />
       <Bar data={transformData(data)} options={chartoptions} height={420} />
       {/* <pre>
